@@ -4,6 +4,7 @@ Esta é uma página web simples e funcional para organizar e acessar facilmente 
 
 ## 📋 Funcionalidades
 
+### Página Principal (index.html)
 - **Organização por turmas**: Todas as turmas (2MA, 2MB, 2TA-2TF, 3MA-3MG, 3TA-3TC) organizadas em cards
 - **Três tipos de documentos por turma**:
   - 📊 Relatório do Estudante Monitor
@@ -15,20 +16,39 @@ Esta é uma página web simples e funcional para organizar e acessar facilmente 
 - **Atalhos de teclado**: Ctrl+K para pesquisar, Escape para limpar
 - **Persistência**: Lembra da última pesquisa e filtro utilizados
 
+### Página dos Estudantes Monitores (monitores.html)
+- **Acesso direto aos relatórios**: Exibe apenas os links dos relatórios dos estudantes monitores
+- **Mesma funcionalidade de pesquisa e filtros** da página principal
+- **Layout simplificado**: Foco nos links de interesse dos monitores
+- **Navegação fácil**: Link de volta para a página principal
+
 ## 🚀 Como usar
 
+### Página Principal
 1. **Abrir a página**: Simplesmente abra o arquivo `index.html` em qualquer navegador
-2. **Pesquisar**: Digite o nome da turma na barra de pesquisa (ex: "2MA", "3TB")
-3. **Filtrar**: Use os botões de filtro para ver apenas turmas específicas
-4. **Acessar planilhas**: Clique nos botões coloridos para abrir as planilhas no Google Sheets
+2. **Acessar página dos monitores**: Clique no link "📊 Acessar Links dos Estudantes Monitores"
+3. **Pesquisar**: Digite o nome da turma na barra de pesquisa (ex: "2MA", "3TB")
+4. **Filtrar**: Use os botões de filtro para ver apenas turmas específicas
+5. **Acessar planilhas**: Clique nos botões coloridos para abrir as planilhas no Google Sheets
+
+### Página dos Estudantes Monitores
+1. **Acesso direto**: Apenas os links dos relatórios dos estudantes monitores
+2. **Mesmas funcionalidades**: Pesquisa e filtros funcionam igual à página principal
+3. **Voltar**: Use o link "← Voltar para Todas as Planilhas" para retornar
 
 ## ⚙️ Configuração dos Links
 
-Para adicionar os links reais das planilhas, edite o arquivo `script.js`:
+Para adicionar os links reais das planilhas:
 
+### Página Principal (script.js)
 1. Abra o arquivo `script.js`
 2. Localize o objeto `turmasData` no início do arquivo
 3. Substitua os links de exemplo pelos links reais das suas planilhas do Google Sheets
+
+### Página dos Monitores (monitores.js)
+1. Abra o arquivo `monitores.js`
+2. Localize o objeto `turmasData` no início do arquivo
+3. Substitua os links de exemplo pelos links reais dos relatórios dos estudantes monitores
 
 ### Exemplo de configuração:
 
@@ -70,9 +90,11 @@ No arquivo `script.js`, adicione novas entradas no objeto `turmasData`:
 
 ```
 📁 projeto/
-├── 📄 index.html      # Página principal
-├── 📄 styles.css      # Estilos e design
-├── 📄 script.js       # Funcionalidades e dados
+├── 📄 index.html      # Página principal (todas as planilhas)
+├── 📄 monitores.html  # Página dos estudantes monitores
+├── 📄 styles.css      # Estilos e design (compartilhado)
+├── 📄 script.js       # Funcionalidades da página principal
+├── 📄 monitores.js    # Funcionalidades da página dos monitores
 └── 📄 README.md       # Este arquivo
 ```
 
@@ -91,9 +113,16 @@ No arquivo `script.js`, adicione novas entradas no objeto `turmasData`:
 
 ## 🛠️ Manutenção
 
-Para atualizar um link específico via console do navegador:
+### Atualizar links via console do navegador:
+
+**Página principal:**
 ```javascript
 updateLink('2MA', 'relatorio', 'novo_link_aqui');
+```
+
+**Página dos monitores:**
+```javascript
+updateLink('2MA', 'novo_link_aqui');
 ```
 
 ## 📞 Suporte

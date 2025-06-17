@@ -190,20 +190,20 @@ header p {
 }
 
 .link-btn.ficha {
-    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    background: linear-gradient(135deg, #2E7D32, #1B5E20);
 }
 
 .link-btn.ficha:hover {
-    background: linear-gradient(135deg, #388E3C, #2E7D32);
+    background: linear-gradient(135deg, #1B5E20, #0D4F12);
     transform: translateY(-2px);
 }
 
 .link-btn.projeto {
-    background: linear-gradient(135deg, #81C784, #66BB6A);
+    background: linear-gradient(135deg, #2E7D32, #1B5E20);
 }
 
 .link-btn.projeto:hover {
-    background: linear-gradient(135deg, #66BB6A, #4CAF50);
+    background: linear-gradient(135deg, #1B5E20, #0D4F12);
     transform: translateY(-2px);
 }
 
@@ -293,6 +293,30 @@ header p {
     }
 }
 
+/* Estilos específicos para a página dos monitores */
+.navigation-links {
+    padding: 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #1976D2;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background: #e3f2fd;
+    color: #0d47a1;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -344,13 +368,19 @@ header p {
     }
     
     .whatsapp-btn {
-        padding: 12px 16px;
-        font-size: 13px;
+        padding: 18px 24px;
+        font-size: 16px;
+        min-width: 200px;
+        justify-content: center;
     }
     
     .whatsapp-btn svg {
-        width: 18px;
-        height: 18px;
+        width: 24px;
+        height: 24px;
+    }
+    
+    .whatsapp-btn span {
+        font-weight: 700;
     }
 }
 
@@ -391,17 +421,19 @@ header p {
     }
     
     .whatsapp-btn {
-        padding: 10px 12px;
-        font-size: 12px;
+        padding: 16px 20px;
+        font-size: 14px;
         gap: 8px;
-    }
-    
-    .whatsapp-btn span {
-        display: none;
+        min-width: 180px;
+        justify-content: center;
     }
     
     .whatsapp-btn svg {
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .whatsapp-btn span {
+        font-weight: 700;
     }
 }
