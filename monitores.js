@@ -3,64 +3,64 @@
 const turmasData = {
     // 2º Ano Manhã
     '2MA': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1FU59nwp7xL0V5xeY65EG0B7KUSoFAYhQ/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1FU59nwp7xL0V5xeY65EG0B7KUSoFAYhQ/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '2MB': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1493_b8xxsXyq_NQKfn5oP0Wj0yuKmmdN/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1493_b8xxsXyq_NQKfn5oP0Wj0yuKmmdN/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     
     // 2º Ano Tarde
     '2TA': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1p67jrOWgBashyjjDKz0Cgp4uejofqlVc/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1p67jrOWgBashyjjDKz0Cgp4uejofqlVc/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '2TB': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1zwNnEhEp5IEpGila6jrOaAu8YSks8AFz/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1zwNnEhEp5IEpGila6jrOaAu8YSks8AFz/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '2TC': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1fMVeI41te-V8MAtwXXI3uLblral8PBLw/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1fMVeI41te-V8MAtwXXI3uLblral8PBLw/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '2TD': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1XeV361Ro-AEEddxBnSgGHsdfBWdz5SK1/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1XeV361Ro-AEEddxBnSgGHsdfBWdz5SK1/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '2TE': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1v2VTNL7_u7gt1SOswX3bCK8omNbKkUOL/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1v2VTNL7_u7gt1SOswX3bCK8omNbKkUOL/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '2TF': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1U1SUhw4O4nyWayv3ZHfWnrj_kfLzah26/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1U1SUhw4O4nyWayv3ZHfWnrj_kfLzah26/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     
     // 3º Ano Manhã
     '3MA': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1md5pDm-srD08QR__9Ti_RxjqmHHBK_Zp/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1md5pDm-srD08QR__9Ti_RxjqmHHBK_Zp/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3MB': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1VUVjFKzKATp4s5QOiNlR3MGo6tr2uKzG/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3MC': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1C3FsC9M039Qychtg72LTqNzMhqcfyIrf/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3MD': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1A_f6X-0j3d5UkfVYMxltVlb3SuoAaH-G/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3ME': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/15jZGxcixDwuPi8TCdK_JMWH_3qDg2Piy/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3MF': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1KN-PmjVVyAguA538Ua_GH0i6soEbvtiW/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3MG': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/11gD-6McjNaKp03YtFuEyJBnMDZmeWwaE/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     
     // 3º Ano Tarde
     '3TA': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/11kirPzXBLYhLlDhFpqMwwF-EpnMDDGtB/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3TB': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1ICg8N3kwLZe6XaA0uEABYqx-dlJchH7n/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     },
     '3TC': {
-        relatorio: 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        relatorio: 'https://docs.google.com/spreadsheets/d/1-s7DufQ8511rpveeBrIX2knSIVQThtz0/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
     }
 };
 
