@@ -63,7 +63,7 @@ const turmasData = {
     '3MD': {
         relatorio: 'https://docs.google.com/spreadsheets/d/1A_f6X-0j3d5UkfVYMxltVlb3SuoAaH-G/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
         ficha: 'https://docs.google.com/spreadsheets/d/1ZGeMAGhkrcrIkqHX2_lZTdlQkeSRCa6B/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
-        projeto: 'https://docs.google.com/spreadsheets/d/1JtLVRo8FKQKpz_h1MUXDIlM4zrEK-ziZ/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true'
+        projeto: 'https://docs.google.com/spreadsheets/d/1QauXkCJVxdzscvmtMFVrmEucmMgsKZso/edit?usp=sharing&ouid=104051255084392386964&rtpof=true&sd=true'
     },
     '3ME': {
         relatorio: 'https://docs.google.com/spreadsheets/d/15jZGxcixDwuPi8TCdK_JMWH_3qDg2Piy/edit?usp=drive_link&ouid=104051255084392386964&rtpof=true&sd=true',
